@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Berita Tasikmalaya</title>
-<style>
-  body { 
-    font-family: Arial, sans-serif; 
-    max-width: 600px; 
-    margin: auto; 
-    padding: 15px; 
-    background: #f5f5f5; 
-  }
-  h1 { text-align: center; color: #c62828; }
-  .berita {
-    background: white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  .berita img { width: 100%; border-radius: 5px; margin: 10px 0; }
-  .tanggal { font-size: 12px; color: gray; margin: 0; }
-  .judul { font-size: 20px; font-weight: bold; margin: 5px 0; color: #222; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jurnalis Tasik Asik</title>
+  <style>
+    body {
+      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      margin: 0;
+    }
+    .kartu {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: 20px auto;
+    }
+    .kartu img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .tanggal {
+      color: gray;
+      font-size: 13px;
+      text-align: right;
+      margin: 8px 0;
+    }
+    .kartu h2 {
+      margin: 10px 0;
+      line-height: 1.4;
+      color: #333;
+    }
+    .kartu p {
+      text-align: justify;
+      line-height: 1.7;
+      margin: 15px 0;
+      color: #444;
+    }
+    .tombol {
+      background: #8B4513;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>📰 Berita Tasikmalaya</h1>
 
-  <!-- BERITA 1 - TINGGAL GANTI ISINYA -->
-  <div class="berita">
-    <p class="tanggal">18 juni 2026</p>
-    <p class="judul">kdm sosok pemimpin pemberani</p>
-    <!-- Kalo mau pake foto, hapus tanda <!-- dan --> di bawah ini -->
-    <!-- <img src="foto1.jpg" alt="foto"> -->
-    <p>kang dedi mulyadi atau yang kerap dipanggil kdm adalah gubernur jawabarat yang belakangan ini menjadi bahan perbincangan hangat di sosial media karena kepemimpinanya yang sangat menginspiratif...</p>
-  </div>
+  <!-- KARTU BERITA UTAMA -->
+  <div class="kartu">
 
-  <!-- BERITA 2 - COPY DARI SINI BUAT BERITA BARU -->
-  <div class="berita">
-    <p class="tanggal">TANGGAL DI SINI</p>
-    <p class="judul">JUDUL BERITA 2 DI SINI</p>
-    <!-- <img src="foto2.jpg" alt="foto"> -->
-    <p>ISI BERITA 2 DI SINI...</p>
-  </div>
+    <!-- FOTO -->
+    <img src="pemukiman-kumuh.jpg" alt="Pemukiman kumuh ibukota">
 
-  <!-- BERITA 3 - MAU NAMBAH LAGI? COPY BERITA 2 TERUS PASTE DI BAWAH -->
-  <div class="berita">
-    <p class="tanggal">TANGGAL DI SINI</p>
-    <p class="judul">JUDUL BERITA 3 DI SINI</p>
-    <!-- <img src="foto3.jpg" alt="foto"> -->
-    <p>ISI BERITA 3 DI SINI...</p>
+    <!-- TANGGAL -->
+    <p class="tanggal">19 Juni 2026 | Tasikmalaya</p>
+    
+    <!-- JUDUL -->
+    <h2>DI BALIK GEMERLAP IBUKOTA SEBUAH PEMUKIMAN KUMUH YANG TERLUPAKAN</h2>
+    
+    <!-- PARAGRAF 1 -->
+    <p>
+    Di balik gemerlapnya ibu kota Jakarta, ada pemukiman yang menampung banyak masyarakat kecil dan miskin. Ironisnya mereka tidak memiliki atap layak untuk buah hati kecil mereka. Sungguh kenyataan yang pahit dimana kata Indonesia Raya seakan tidak tergambarkan di kawasan ini.
+    </p>
+    
+    <!-- PARAGRAF 2 -->
+    <p>
+    Kurangnya perhatian pemerintah membuat angka kemiskinan dan pengangguran meningkat pesat dari 3 tahun terakhir. Ironisnya anak-anak tidak mendapatkan akses pendidikan yang layak, kelaparan, kesehatan dan keamanan pun terabaikan.
+    </p>
+
+    <!-- TOMBOL -->
+    <a href="#" class="tombol">Selengkapnya</a>
+
   </div>
 
 </body>
