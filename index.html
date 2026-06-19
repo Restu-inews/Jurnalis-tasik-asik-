@@ -1,85 +1,51 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jurnalis Tasik Asik</title>
-  <style>
-    body {
-      background: #f5f5f5;
-      font-family: Arial, sans-serif;
-      padding: 15px;
-      margin: 0;
-    }
-    .kartu {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-      max-width: 700px;
-      margin: 20px auto;
-    }
-    .kartu img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .tanggal {
-      color: gray;
-      font-size: 13px;
-      text-align: right;
-      margin: 8px 0;
-    }
-    .kartu h2 {
-      margin: 10px 0;
-      line-height: 1.4;
-      color: #333;
-    }
-    .kartu p {
-      text-align: justify;
-      line-height: 1.7;
-      margin: 15px 0;
-      color: #444;
-    }
-    .tombol {
-      background: #8B4513;
-      color: white;
-      padding: 10px 18px;
-      border-radius: 25px;
-      text-decoration: none;
-      display: inline-block;
-      margin-top: 10px;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- KARTU BERITA UTAMA -->
-  <div class="kartu">
-
-    <!-- FOTO -->
-    <img src="pemukiman-kumuh.jpg" alt="Pemukiman kumuh ibukota">
-
-    <!-- TANGGAL -->
-    <p class="tanggal">19 Juni 2026 | Tasikmalaya</p>
+<!-- ARTIKEL BERITA + ICON KORAN -->
+<div style="background:#dc2626; padding:30px; border-radius:12px; margin-top:40px; position:relative; overflow:hidden;">
+  
+  <!-- ICON KORAN GEDE DI BACKGROUND BUAT HIASAN -->
+  <div style="position:absolute; top:-20px; right:-20px; font-size:120px; opacity:0.08; transform:rotate(-15deg);">📰</div>
+  
+  <!-- KOTAK TEKS PUTIH -->
+  <article style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.2); position:relative; z-index:1;">
     
-    <!-- JUDUL -->
-    <h2>DI BALIK GEMERLAP IBUKOTA SEBUAH PEMUKIMAN KUMUH YANG TERLUPAKAN</h2>
+    <!-- HEADER + ICON MIC BERITA -->
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:15px;">
+      <div style="font-size:32px;">🎙️</div>
+      <span style="background:#dc2626; color:white; padding:4px 10px; border-radius:5px; font-size:12px; font-weight:bold;">BREAKING NEWS</span>
+    </div>
     
-    <!-- PARAGRAF 1 -->
-    <p>
-    Di balik gemerlapnya ibu kota Jakarta, ada pemukiman yang menampung banyak masyarakat kecil dan miskin. Ironisnya mereka tidak memiliki atap layak untuk buah hati kecil mereka. Sungguh kenyataan yang pahit dimana kata Indonesia Raya seakan tidak tergambarkan di kawasan ini.
+    <!-- JUDUL + ICON KORAN -->
+    <h2 style="color:#dc2626; font-size:28px; font-weight:700; margin-top:0; line-height:1.4; display:flex; align-items:flex-start; gap:10px;">
+      <span style="font-size:30px; margin-top:2px;">📰</span>
+      <span>Korupsi Musuh Terbesar Negara Indonesia</span>
+    </h2>
+    
+    <!-- INFO + ICON PIN LOKASI + JAM -->
+    <p style="color:#64748b; font-size:14px; margin:15px 0; display:flex; align-items:center; gap:15px; flex-wrap:wrap;">
+      <span>📍 Tasikmalaya, Jawa Barat</span>
+      <span>⏰ 22.30 WIB</span>
+      <span>✍️ Restu Inews</span>
     </p>
     
-    <!-- PARAGRAF 2 -->
-    <p>
-    Kurangnya perhatian pemerintah membuat angka kemiskinan dan pengangguran meningkat pesat dari 3 tahun terakhir. Ironisnya anak-anak tidak mendapatkan akses pendidikan yang layak, kelaparan, kesehatan dan keamanan pun terabaikan.
-    </p>
-
-    <!-- TOMBOL -->
-    <a href="#" class="tombol">Selengkapnya</a>
-
-  </div>
-
-</body>
-</html>
+    <!-- GAMBAR -->
+    <img src="banjir-cikurubuk.jpg" alt="Banjir Cikurubuk" style="width:100%; max-width:650px; border-radius:8px; margin:20px 0; border:3px solid #dc2626;">
+    
+    <!-- ISI BERITA - LU ISI DISINI -->
+    <div style="color:#1e293b; font-size:17px; line-height:1.8;">
+      <p style="margin-top:0; border-left:4px solid #dc2626; padding-left:12px;"><b>📢 berita ini di sampaikan oleh rakyat yang berani bersuara untuk tanah air dan saudara sebangsa tanah air indonesia </b></p>
+      
+      <p>🔍 koruptor di Indonesia sudah menjadi momok yang menyebalkan dan membuat rakyat sengsara,kursi jabatan di isi keluarga,sehingga penampakan nepotisme dinasti menjadi pemandangan biasa di kursi pemerintahan,sungguh ironis rakyat tak berpendidikan di tipu di tindas dan di manfaatkan suaranya hanya untuk kursi kekuasaan dan ladang uang mereka</p>
+    </div>
+    
+    <!-- FOOTER + ICON SHARE -->
+    <div style="margin-top:25px; padding-top:15px; border-top:2px dashed #e2e8f0; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <div>
+        <span style="background:#dc2626; color:white; padding:6px 12px; border-radius:20px; font-size:13px; margin-right:8px;">#Tasikmalaya</span>
+        <span style="background:#dc2626; color:white; padding:6px 12px; border-radius:20px; font-size:13px;">#Banjir</span>
+      </div>
+      <div style="font-size:20px; opacity:0.6;">
+        📤 🔗
+      </div>
+    </div>
+    
+  </article>
+</div>
